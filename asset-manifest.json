@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/deploy-cv-quan/static/css/main.0ef0a47a.css",
+    "main.js": "/deploy-cv-quan/static/js/main.a65c6dfd.js",
+    "static/media/logo.png": "/deploy-cv-quan/static/media/logo.572ab1206c7ce31f6401.png",
+    "index.html": "/deploy-cv-quan/index.html",
+    "main.0ef0a47a.css.map": "/deploy-cv-quan/static/css/main.0ef0a47a.css.map",
+    "main.a65c6dfd.js.map": "/deploy-cv-quan/static/js/main.a65c6dfd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ef0a47a.css",
+    "static/js/main.a65c6dfd.js"
+  ]
+}
