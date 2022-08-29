@@ -1,0 +1,116 @@
+.wrapper {
+  position: relative;
+  padding-top: 56%;
+  background-color: black;
+
+  .videoIntro {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .infoIntro {
+    position: absolute;
+    color: white;
+    top: 150px;
+    left: 30px;
+
+    h1 {
+      font-size: 6rem;
+      margin-bottom: 10px;
+      transition: all 0.3 ease;
+
+      @media screen and (max-width: 800px) {
+        font-size: 4rem;
+      }
+      @media screen and (max-width: 600px) {
+        font-size: 2.4rem;
+      }
+    }
+    p {
+      font-size: 1.8rem;
+      max-width: 550px;
+      line-height: 1.5;
+      transition: all 0.3 ease;
+
+      @media screen and (max-width: 800px) {
+        max-width: 450px;
+        font-size: 1.6rem;
+      }
+      @media screen and (max-width: 600px) {
+        max-width: 350px;
+        font-size: 1.4rem;
+      }
+    }
+
+    @media screen and (max-width: 800px) {
+      top: 120px;
+      left: 25px;
+    }
+    @media screen and (max-width: 600px) {
+      top: 100px;
+      left: 15px;
+    }
+  }
+
+  .iconVideo {
+    position: absolute;
+    top: 50%;
+    right: 60px;
+    transform: translateY(-50%);
+    font-size: 25px;
+    padding: 6px;
+    border: solid 1px white;
+    border-radius: 999px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transform: scale(1);
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+    @media screen and (max-width: 800px) {
+      font-size: 18px;
+      padding: 4px;
+    }
+    @media screen and (max-width: 600px) {
+      font-size: 16px;
+      padding: 3px;
+    }
+
+    &:hover {
+      transform: scale(1.2);
+      background-color: rgba(211, 211, 211, 0.8);
+    }
+
+    &:active {
+      transform: scale(0.8);
+    }
+  }
+
+  .bottom {
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    bottom: 0;
+    left: 0;
+    color: white;
+    background-image: linear-gradient(
+      180deg,
+      transparent,
+      rgba(15, 15, 15, 0.6) 30%,
+      rgb(17, 17, 17, 0.5) 40%,
+      rgb(17, 17, 17)
+    );
+    z-index: 100;
+
+    @media screen and (max-width: 800px) {
+      height: 100px;
+    }
+    @media screen and (max-width: 600px) {
+      height: 80px;
+    }
+  }
+}
